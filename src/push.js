@@ -1,14 +1,14 @@
 import firebase from "firebase";
 export const initializeFirebaseWithFCMToken = () => {
   firebase.initializeApp({
-    apiKey: "AIzaSyBK-m1PUUuWiDwf4Ud4qfZUJcccKrMjoz8",
-    authDomain: "react-notify-5e632.firebaseapp.com",
-    databaseURL: "https://react-notify-5e632.firebaseio.com",
-    projectId: "react-notify-5e632",
-    storageBucket: "react-notify-5e632.appspot.com",
-    messagingSenderId: "1030710516187",
-    appId: "1:1030710516187:web:a93ea8a0e518e1bd94affe",
-    measurementId: "G-0DPRZQDH35"
+    apiKey: "************",
+    authDomain: "*********",
+    databaseURL: "*********",
+    projectId: "*******",
+    storageBucket: "******.appspot.com",
+    messagingSenderId: "*********",
+    appId: "***************",
+    measurementId: "***********"
   });
   const messaging = firebase.messaging();
   messaging
